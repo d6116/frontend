@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import './App.css'
-import './Showcase.css'
+import './App.css' 
+import './showcase.css'
 //import './App2.css'
 import CreateProjectPage from './pages/CreateProjectPage'
 import ProjectList from './componments/ProjectList'
