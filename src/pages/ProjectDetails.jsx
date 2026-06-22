@@ -10,8 +10,6 @@ const ProjectDetails = () => {
   const [error, setError] = useState(null);
   const [isDeleting, setIsDeleting] = useState(false);
 
-  import { apiRequest } from './path-to-your-api-helper'; // Make sure to import it!
-
   useEffect(() => {
     const fetchProject = async () => {
       try {
